@@ -1,17 +1,19 @@
-## O que é esse projeto?
+# Firebase overview and commands <!-- omit in toc -->
 
-É um pequeno/simples projeto que demonstra como é possível criar diferentes visões (Roles) no front-end em Angular de acordo com o que é retornado pelo back-end em C# utlizando o método de autenticação JWT (JSON Web Tokens).
+## Contents <!-- omit in toc -->
 
-Alguns requisitos:
-- 3 níveis/visões de usuários: Admin, Customer e Employee, totalmente independentes;
-- No back-end alguns métodos precisam ser restritos as suas respectivas regras (Roles);
-- Métodos para usuários do tipo Anonymous.
-- Métodos comum a todos, mas internamente um teste específico para um tipo de regra.
+- [1. Firestore](#1-firestore)
+- [2. Firebase Authentication](#2-firebase-authentication)
+- [3. Cloud Storage](#3-cloud-storage)
 
-## Back-end
+# 1. Firestore
 
-.Net Core
+- Cloud Firestore is a NoSQL, document-oriented database.
 
-## Front-end
+# 2. Firebase Authentication
 
-Angular 4+ (10)
+- Aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for app users.
+
+# 3. Cloud Storage
+
+- It provides a declarative rules language that lets we define how our data should be structured, how it should be indexed, and when it data can be read from and written.
